@@ -46,7 +46,7 @@ extension Logger {
         }
     }
 
-    static func addLogProfileToAllLevels( defaultLoggerProfile: LoggerProfile) {
+    static func addLogProfileToAllLevels(defaultLoggerProfile: LoggerProfile) {
         for level in LogLevels.allValues {
             setLogLevel(logLevel: level, loggerProfile: defaultLoggerProfile)
         }

@@ -1,2 +1,5 @@
 # LoggerService
-A protocol-oriented sample with Swift logger.
+A demo for log configuration and use.
+
+# DataAccessLayer
+A demo for Teams and Players data access.

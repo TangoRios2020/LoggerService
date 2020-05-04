@@ -48,7 +48,6 @@ extension User: Decodable {
     }
 }
 
-// 扩展了 session, 就少做点事情
 extension URLSession: NetworkEngine {
     
     func send<T: Request>(_ r: T, handler: @escaping (T.Response?) -> Void) {

@@ -17,6 +17,8 @@
 		C4F0C7F724604C60003E7B45 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0C7F624604C60003E7B45 /* Request.swift */; };
 		C4F0C7FF24604DC6003E7B45 /* NetworkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0C7FE24604DC6003E7B45 /* NetworkDemoTests.swift */; };
 		C4F0C80724604E62003E7B45 /* user:tango in Resources */ = {isa = PBXBuildFile; fileRef = C4F0C80624604E62003E7B45 /* user:tango */; };
+		C4F0C80924605B60003E7B45 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0C80824605B60003E7B45 /* NetworkEngine.swift */; };
+		C4F0C80B24605C40003E7B45 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0C80A24605C40003E7B45 /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C4F0C7FE24604DC6003E7B45 /* NetworkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemoTests.swift; sourceTree = "<group>"; };
 		C4F0C80024604DC6003E7B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F0C80624604E62003E7B45 /* user:tango */ = {isa = PBXFileReference; lastKnownFileType = text; path = "user:tango"; sourceTree = "<group>"; };
+		C4F0C80824605B60003E7B45 /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		C4F0C80A24605C40003E7B45 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				C4F0C7D624604B1F003E7B45 /* ViewController.swift */,
 				C4F0C7F424604B7C003E7B45 /* User.swift */,
 				C4F0C7F624604C60003E7B45 /* Request.swift */,
+				C4F0C80824605B60003E7B45 /* NetworkEngine.swift */,
+				C4F0C80A24605C40003E7B45 /* DataLoader.swift */,
 				C4F0C7D824604B1F003E7B45 /* Main.storyboard */,
 				C4F0C7DB24604B22003E7B45 /* Assets.xcassets */,
 				C4F0C7DD24604B22003E7B45 /* LaunchScreen.storyboard */,
@@ -212,6 +218,8 @@
 			files = (
 				C4F0C7F524604B7C003E7B45 /* User.swift in Sources */,
 				C4F0C7D724604B1F003E7B45 /* ViewController.swift in Sources */,
+				C4F0C80B24605C40003E7B45 /* DataLoader.swift in Sources */,
+				C4F0C80924605B60003E7B45 /* NetworkEngine.swift in Sources */,
 				C4F0C7F724604C60003E7B45 /* Request.swift in Sources */,
 				C4F0C7D324604B1F003E7B45 /* AppDelegate.swift in Sources */,
 				C4F0C7D524604B1F003E7B45 /* SceneDelegate.swift in Sources */,
